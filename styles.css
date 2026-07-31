@@ -46,13 +46,13 @@ section p {
 section.left {
   text-align: left;
   margin-right: auto;
-  color: blue;
+  color: #006eff;
 }
 
 section.right {
   text-align: right;
   margin-left: auto;
-  color: red;
+  color: #ff0000;
 }
 
 section.center {
