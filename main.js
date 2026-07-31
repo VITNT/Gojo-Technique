@@ -41,9 +41,9 @@ const purpleSphere = new THREE.Mesh(purpleGeometry, purpleMaterial);
 purpleSphere.position.set(0, 0, 0);
 scene.add(purpleSphere);
 
-// Sukuna Cube
+// Gojo Cube
 const boxGeometry = new THREE.BoxGeometry(3, 3, 3);
-const texture = new THREE.TextureLoader().load('./gojo.png');
+const texture = new THREE.TextureLoader().load('gojo.png');
 const boxMaterial = new THREE.MeshBasicMaterial({ map: texture });
 const box = new THREE.Mesh(boxGeometry, boxMaterial);
 
