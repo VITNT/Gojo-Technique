@@ -1,0 +1,80 @@
+@font-face {
+  font-family: jjk;
+  src: url('jjk.ttf') format('truetype');
+}
+
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 64px;
+}
+
+body {
+  margin: 0;
+  color: white;
+  font-family: jjk, sans-serif;
+}
+
+section {
+  padding: 150px 60px;
+  max-width: 560px;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+
+section p {
+  font-size: 24px;
+  font-family: system-ui, sans-serif;
+  color: white;
+}
+
+section.left {
+  text-align: left;
+  margin-right: auto;
+  color: blue;
+}
+
+section.right {
+  text-align: right;
+  margin-left: auto;
+  color: red;
+}
+
+section.center {
+  margin: 0 auto;
+  text-align: center;
+  color: purple;
+  padding-bottom: 0px;
+}
+
+.outro {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 48px;
+  margin: 0 auto;
+  color: white;
+}
+
+.outro img {
+  width: 500px;
+  height: 500px;
+}
